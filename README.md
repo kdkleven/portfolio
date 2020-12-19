@@ -22,9 +22,9 @@ Course: UofM Coding Boot Camp
 
 ## TRACKING LOG (DELETE BEFORE SUBMITTING)
 - [x] Create index.html, portfolio.html, and contact.html
-- [] Use bootstrap's navbar
-- [] Use bootstrap's responsive layout
-- [] Use bootstrap's responsive images
+- [x] Use bootstrap's navbar
+- [x] Use bootstrap's responsive layout
+- [x] Use bootstrap's responsive images
 - [] Use media queries to minimize the portfolio
 - [] On an 'xs' screen, content should take up the entire screen, scaled up by screen size
 - [] Use an HTML validation service to ensure that each page has valid HTML
