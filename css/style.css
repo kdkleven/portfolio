@@ -2,3 +2,17 @@
     box-sizing: border-box;
     position: relative;
   }
+
+  div {
+      /* border: 1px solid red; */
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+  }
+
+  .main {
+      border: 5px solid #343a40;
+  }
