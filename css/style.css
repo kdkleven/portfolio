@@ -4,13 +4,23 @@
   }
 
 body {
+<<<<<<< HEAD
     background-image: url("../images/bg-pattern.jpg");
 }
+=======
+    background-image: url(../images/backgroundPattern.jpg);
+}
+
+  div {
+      /* border: 1px solid red; */
+  }
+>>>>>>> e2bbc1a2c40e49045e4bfc098d2a97bdef7cbe07
 
 div {
     border: 1px solid red;
 }
 
+<<<<<<< HEAD
 img {
     width: 100%;
     height: auto;
@@ -52,3 +62,34 @@ footer {
         margin: auto;
     }
 } 
+=======
+  .main {
+      border: 5px solid #343a40;
+      background-color: white;
+  }
+
+footer {
+    background-color: #343a40;
+    padding: 10px;
+    text-align: center;
+}
+
+  /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    
+}
+
+@media (min-width: 992px) {
+
+}
+>>>>>>> e2bbc1a2c40e49045e4bfc098d2a97bdef7cbe07
