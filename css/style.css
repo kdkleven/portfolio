@@ -7,10 +7,6 @@ body {
     background-image: url("../images/bg-pattern.jpg");
 }
 
-div {
-    border: 1px solid red;
-}
-
 img {
     width: 100%;
     height: auto;
