@@ -12,6 +12,7 @@ Course: UofM Coding Boot Camp
 ### The Purpose
 This is my first website designed to be responsive to desktop, tablet, and mobile devices. So, pick up your favorite device and visit my page to learn About Me, see my Portfolio, and Contact Me.
 
+<<<<<<< HEAD
 # professionalMaterials
 UofM Bootcamp Homework 08
 
@@ -20,3 +21,7 @@ UofM Bootcamp Homework 08
 * Projects and/or services displaying your range of industry specific skills
 * A clean and easy display of links to projects
 * Bonus content such as a blog or podcast that make you stand out in the market
+=======
+## Check it!
+https://kdkleven.github.io/portfolio/
+>>>>>>> b752b27c5df7246aed678d81c308ed8aa4bfb9cb
