@@ -11,3 +11,6 @@ Course: UofM Coding Boot Camp
 
 ### The Purpose
 This is my first website designed to be responsive to desktop, tablet, and mobile devices. So, pick up your favorite device and visit my page to learn About Me, see my Portfolio, and Contact Me.
+
+## Check it!
+https://kdkleven.github.io/portfolio/
