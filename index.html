@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Kyle Kleven</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-fixed-top">
             <div class="container-fluid">
                 <span class="navbar-brand">Kyle Kleven</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -23,7 +23,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link" id="about" href="index.html" target="_top">About</a>
                         </li>
@@ -38,50 +38,101 @@
             </div>
         </nav>
     </header>
-    <section class="container">
-        <div class="row">
-            <div class="col-md-1">
+    <div id="wrap">
+        <main class="container clear-top" id="main">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <h1>About Me</h1>
+                </div>
+                <div class="col-1"></div>
             </div>
-            <main class="col-md-10 main">
-                <div class="row">
-                    <div class="col-12">
-                        <h1>About Me</h1>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <span> <img src="./images/headshot.jpg" alt="Headshot"></span>
+                    <p>
+                        Welcome to my website. I am an aspiring web developer and Quality Engineer. I live in Minnesota
+                        with my wife and two children. I spend most of my time hanging out with my family while I'm not
+                        coding, testing, or working on our house.
+                    </p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </main>
+        <section class="container section hidden" id="portfolio">
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <main class="col-md-10 main">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1>Portfolio</h1>
+                        </div>
                     </div>
                     <div class="row">
-                    <div class="col-12">
-                        <span> <img src="./images/headshot.jpg" alt="Headshot"></span>
-                        <p>
-                            Welcome to my website. I am an aspiring web developer and Quality Engineer. I live in Minnesota with my wife and two children. I spend most of my time hanging out with my family while I'm not coding, testing, or working on our house. 
-                            <br><br>
-                            Continuing the theme of "About Me", here are some great quotes about who I am:
-                            <br><br>
-                            “But to be what I am, to live what I was meant to live, to want to sound like no one else,
-                            to yield the blossoms dictated to my heart: this is what I want - and this surely cannot be
-                            arrogance. (Letters on Life)”
-                            ― Rainer Maria Rilke
-                            <br><br>
-                            “Descartes, of course, the French philosopher said: "I think therefore I am".
-                            If he had waited a little bit longer before saying anything, he could have come to the point
-                            of cessation of thinking and then he could have made the more profound statement: "I am
-                            conscious therefore I am".
-                            <br><br>
-                            Thinking is only an expression of consciousness: a surface expression of consciousness.”
-                            ― Eckhart Tolle
-                            <br><br>
-                            “What follows two small words has the power to change your life.
-                            What are those words?
-                            I Am…”
-                            ― Charles F Glassman
-                        </p>
+                        <div class="card" style="width: 18rem;">
+                            <a href="https://kdkleven.github.io/dailyRecreational/index.html"><img class="card-img-top" src="./images/DailyRecreational.png" alt="Daily Recreational"></a>
+                            <div class="card-body">
+                                <p class="card-text">Daily recreational.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <a href="https://kdkleven.github.io/passwordGenerator/index.html"><img class="card-img-top" src="./images/03-javascript-homework-demo.png" alt="Password Generator"></a>
+                            <div class="card-body">
+                                <p class="card-text">Password generator.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <a href="https://kdkleven.github.io/workdayScheduler/index.html"><img class="card-img-top" src="./images/workdayScheduler.PNG" alt="Workday Scheduler"></a>
+                            <div class="card-body">
+                                <p class="card-text">Workday Scheduler description.</p>
+                            </div>
+                        </div>
+                </main>
+                <div class="col-md-1">
+                </div>
+            </div>
+        </section>
+        <section class="container section hidden" id="contact">
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <main class="col-md-6 main">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Contact</h1>
+                        </div>
                     </div>
-                </div>
-                </div>
-            </main>
-        </div>
-    </section>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="p-2">
+                                <label for="nameInput" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="nameInput" placeholder="Name">
+                            </div>
+                            <div class="p-2">
+                                <label for="emailInput" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="emailInput"
+                                    placeholder="name@example.com">
+                            </div>
+                            <div class="p-2">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Enter message"></textarea>
+                            </div>
+                            <div class="p-3">
+                                <button type="button" class="btn btn-dark" disabled>Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <div class="col-md-5"></div>
+            </div>
+        </section>
+    </div>
     <footer class="footer">
         <div class="container-fluid">
-            <h5>KK</h5>
+            <h5>10GU &copy;2021 </h5>
         </div>
     </footer>
 </body>
