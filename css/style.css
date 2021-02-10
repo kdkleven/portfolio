@@ -8,14 +8,16 @@ PEWTER - RGB: (105,97,88)
  */
 
 header {
-    background-color: white;
-    color: rgb(177,186,191);
+    background-color: rgb(213,10,10);
+    color: white;
     height: 65px;
+    margin: 30px 20px 0px 20px;
+    text-align: center;
 }
 
 body {
     /* background-image: url("../images/bg-pattern.jpg"); */
-    background-color: rgb(52,48,43);
+    background-color: rgb(105,97,88);
     height: 100%;
 }
 
@@ -24,9 +26,9 @@ body {
 }
 
 .container {
-    border-left: 20px solid rgb(213,10,10);
-    border-right: 20px solid rgb(213,10,10);
-    background-color: rgb(52,48,43);
+    border-left: 40px solid rgb(213,10,10);
+    border-right: 40px solid rgb(213,10,10);
+    background-color: rgb(105,97,88);
     color: rgb(177,186,191);
     overflow:auto;
     padding-bottom: 150px;
@@ -44,7 +46,7 @@ img {
 }
 
 footer {
-    background-color: white;
+    background-color: transparent;
     text-align: center;
     color: rgb(177,186,191);
     position: relative;
