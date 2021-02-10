@@ -1,48 +1,86 @@
-* {
-    box-sizing: border-box;
-    position: relative;
-  }
+
+/* COLORS: 
+RED - RGB: (213,10,10)
+BAY ORANGE - RGB: (255,121,0)
+BLACK - RGB: (10,10,8)
+GREY - RGB: (177,186,191)
+PEWTER - RGB: (105,97,88)
+ */
+
+header {
+    background-color: white;
+    color: rgb(177,186,191);
+    height: 65px;
+}
 
 body {
-    background-image: url(../images/backgroundPattern.jpg);
+    /* background-image: url("../images/bg-pattern.jpg"); */
+    background-color: rgb(52,48,43);
+    height: 100%;
 }
 
-  div {
-      /* border: 1px solid red; */
-  }
+#wrap {
+    min-height: 100%;
+}
 
-  img {
-      width: 100%;
-      height: auto;
-      padding: 10px;
-  }
+.container {
+    border-left: 20px solid rgb(213,10,10);
+    border-right: 20px solid rgb(213,10,10);
+    background-color: rgb(52,48,43);
+    color: rgb(177,186,191);
+    overflow:auto;
+    padding-bottom: 150px;
+}
 
-  .main {
-      border: 5px solid #343a40;
-      background-color: white;
-  }
+img {
+    width: 200px;
+    height: auto;
+    float: left;
+    padding: 0px 20px 20px 20px;
+}
+
+.card {
+    display: flex;
+}
 
 footer {
-    background-color: #343a40;
-    padding: 10px;
+    background-color: white;
     text-align: center;
+    color: rgb(177,186,191);
+    position: relative;
+    margin-top: -65px; /* negative value of footer height */
+    height: 65px;
+    clear:both;
+    padding-top:20px;
 }
 
-  /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
-    
+/* On screens that are 992px */
+@media all and (max-width: 992px)  {
+    .main {
+        width: auto;
+    }
+}
+  
+/* On screens that are 768px */
+@media screen and (max-width: 768px) {
+    .main {
+        width: auto;
+        margin: auto 50px auto 50px;
+    }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
-
- }
-
-/* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) { 
-    
+/* On screens that are 768px */
+@media screen and (max-width: 768px) {
+    .main {
+        width: 75%;
+        margin: auto 50px auto 50px;
+    }
 }
 
-@media (min-width: 992px) {
-
-}
+/* On screens that are 400px */
+@media screen and (max-width: 400px) {
+    .main {
+        width: 100%;
+        margin: auto;
+    }
+} 
