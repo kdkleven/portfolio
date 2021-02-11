@@ -12,7 +12,6 @@ header {
     color: white;
     height: 65px;
     margin: 30px 20px 0px 20px;
-    text-align: center;
 }
 
 body {
@@ -30,19 +29,31 @@ body {
     border-right: 40px solid rgb(213,10,10);
     background-color: rgb(105,97,88);
     color: rgb(177,186,191);
-    overflow:auto;
+    overflow: auto;
     padding-bottom: 150px;
+    width: 100%;
 }
 
-img {
+h1 {
+    margin: 30px 0px 30px 0px;
+}
+
+.nav-link {
+    background-color: rgb(213,10,10);
+    color: white;
+}
+
+.card {
+    width: 80%;
+    margin: 50px;
+    display: flex;
+}
+
+#aboutDiv img {
     width: 200px;
     height: auto;
     float: left;
     padding: 0px 20px 20px 20px;
-}
-
-.card {
-    display: flex;
 }
 
 footer {

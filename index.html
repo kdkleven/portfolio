@@ -23,81 +23,72 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="nav nav-tabs ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" id="about" target="_top">About</a>
+                            <button class="nav-link" id="about">About</button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="portfolio" target="_top">Portfolio</a>
+                            <button class="nav-link" id="portfolio">Portfolio</button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact" target="_top">Contact</a>
+                            <button class="nav-link" id="contact">Contact</button>
                         </li>
                     </ul>
                 </div>
-                <span>10GU &copy;2021 </span>
             </div>
         </nav>
     </header>
     <div id="wrap">
-        <main class="container clear-top" id="about">
+        <main class="container clear-top" id="aboutDiv">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
+                <div class="col-12">
                     <h1>About Me</h1>
                 </div>
-                <div class="col-1"></div>
             </div>
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
+                <div class="col-12">
                     <span><img src="./images/headshot.jpg" alt="Headshot"></span>
                     <p>
-                        Welcome to my website. I am an aspiring web developer and Quality Engineer. I live in Minnesota
-                        with my wife and two children. I spend most of my time hanging out with my family while I'm not
-                        coding, testing, or working on our house.
+                        Welcome to me. As a Quality Engineer and Web Developer, I am a highly-motivated professional
+                        with over 16 years of experience testing and developing software applications.
                     </p>
                 </div>
-                <div class="col-1"></div>
             </div>
         </main>
-        <section class="container section hidden" id="portfolio">
+        <section class="container section hidden" id="portfolioDiv">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-md-10 main">
-                    <h1>Portfolio</h1>
+                <div class="col-md-12 main">
+                    <h1>Portfolio</h2>
                 </div>
-                <div class="col-1"></div>
                 <div class="row">
-                    <div class="card" style="width: 18rem;">
-                        <a href="https://kdkleven.github.io/dailyRecreational/index.html"><img class="card-img-top"
-                                src="./images/DailyRecreational.png" alt="Daily Recreational"></a>
-                        <div class="card-body">
-                            <p class="card-text">Daily recreational.</p>
+                    <div class="col-12">
+                        <div class="card">
+                            <a href="https://kdkleven.github.io/dailyRecreational/index.html"><img class="card-img-top"
+                                    src="./images/DailyRecreational.png" alt="Daily Recreational"></a>
+                            <div class="card-body">
+                                <p class="card-text">Daily recreational.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <a href="https://kdkleven.github.io/passwordGenerator/index.html"><img class="card-img-top"
-                                src="./images/03-javascript-homework-demo.png" alt="Password Generator"></a>
-                        <div class="card-body">
-                            <p class="card-text">Password generator.</p>
+                        <div class="card">
+                            <a href="https://kdkleven.github.io/passwordGenerator/index.html"><img class="card-img-top"
+                                    src="./images/03-javascript-homework-demo.png" alt="Password Generator"></a>
+                            <div class="card-body">
+                                <p class="card-text">Password generator.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <a href="https://kdkleven.github.io/workdayScheduler/index.html"><img class="card-img-top"
-                                src="./images/workdayScheduler.PNG" alt="Workday Scheduler"></a>
-                        <div class="card-body">
-                            <p class="card-text">Workday Scheduler description.</p>
+                        <div class="card">
+                            <a href="https://kdkleven.github.io/workdayScheduler/index.html"><img class="card-img-top"
+                                    src="./images/workdayScheduler.PNG" alt="Workday Scheduler"></a>
+                            <div class="card-body">
+                                <p class="card-text">Workday Scheduler description.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-1">
                     </div>
                 </div>
+            </div>
         </section>
-        <section class="container section hidden" id="contact">
+        <section class="container section hidden" id="contactDiv">
             <div class="row">
-                <div class="col-md-1">
-                </div>
                 <main class="col-md-6 main">
                     <div class="row">
                         <div class="col-md-12">
@@ -105,7 +96,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 main">
                             <div class="p-2">
                                 <label for="nameInput" class="form-label">Name</label>
                                 <input type="text" class="form-control" id="nameInput" placeholder="Name">
@@ -131,9 +122,12 @@
     </div>
     <footer class="footer">
         <div class="container-fluid">
-
+            <span>10GU &copy;2021 </span>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script/script.js"></script>
 </body>
 
 </html>

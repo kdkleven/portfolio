@@ -6,3 +6,20 @@ const aboutEl = $('#about');
 const portfolioEl = $('#portfolio');
 const contactEl = $('#contact');
 
+aboutEl.on('click', function() {
+    $('#aboutDiv').removeClass('hidden');
+    $('#portfolioDiv').addClass('hidden');
+    $('#contactDiv').addClass('hidden');
+});
+
+portfolioEl.click(function() {
+    $('#aboutDiv').addClass('hidden');
+    $('#portfolioDiv').removeClass('hidden');
+    $('#contactDiv').addClass('hidden');
+});
+
+contactEl.on('click', function() {
+    $('#aboutDiv').addClass('hidden');
+    $('#portfolioDiv').addClass('hidden');
+    $('#contactDiv').removeClass('hidden');
+});
