@@ -1,53 +1,44 @@
 .navbar {
-    background-color: white;
-    color: black;
-    height: 65px;
-    width: auto;
-    display: flex;
+    height: auto;
+    max-width: 1143px;
     margin: 30px 50px 50px 50px;
     filter: drop-shadow(5px 5px 4px black);
-    text-align: right;
+}
+
+.nav-link {
+    background-color: white;
+    width: 100px;
+    padding-left: 10px;
 }
 
 body {
     background-color: grey;
+    width: 100%;
 }
 
 #wrap {
     min-height: 100%;
-    width: auto;
+    width: 100%;
 }
 
 h2 {
     padding: 25px;
+    width: 100%;
 }
 
 .container {
     background-color: white;
     color: black;
-    overflow: auto;
+    /* overflow: auto; */
     width: 100%;
     padding: 10px;
-    display: inline-block;
     margin: 0px 50px 0px 50px;
     filter: drop-shadow(5px 5px 4px black);
 }
 
 main {
     margin: 10px 20px 10px 20px;
-}
-
-.nav-link {
-    background-color: transparent;
-    color: black;
-}
-
-.nav-link:hover {
-    background-color: goldenrod;
-}
-
-#headshot {
-    float: left;
+    width: 100%;
 }
 
 .card {
@@ -57,8 +48,8 @@ main {
     display: flex;
 }
 
-#aboutDiv img {
-    width: 200px;
+#headshot {
+    width: 300px;
     height: auto;
     float: left;
     padding: 0px 20px 20px 20px;
@@ -71,18 +62,15 @@ footer {
     margin-top: -65px; /* negative value of footer height */
     height: 65px;
     clear:both;
-    padding-top:20px;
+    padding:20px;
     margin: 50px;
-    text-align: center;
+    max-width: 1143px;
+    text-align: left;
     filter: drop-shadow(5px 5px 4px black);
 }
 
 .hidden {
     display: none;
-}
-
-footer.span {
-    text-align: right;
 }
 
 .contact {
