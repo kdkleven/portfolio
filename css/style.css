@@ -1,40 +1,40 @@
-
-/* COLORS: 
-RED - RGB: (213,10,10)
-BAY ORANGE - RGB: (255,121,0)
-BLACK - RGB: (10,10,8)
-GREY - RGB: (177,186,191)
-PEWTER - RGB: (105,97,88)
- */
-
-header {
+.navbar {
     background-color: white;
     color: black;
     height: 65px;
-    margin: 30px 20px 50px 20px;
+    width: auto;
+    display: flex;
+    margin: 30px 50px 50px 50px;
+    filter: drop-shadow(5px 5px 4px black);
+    text-align: right;
 }
 
 body {
-    background-image: url("../images/bg-pattern.jpg");
-    background-color: transparent;
-    height: 100%;
-    filter: drop-shadow(5px 5px 4px black);
+    background-color: grey;
 }
 
 #wrap {
     min-height: 100%;
+    width: auto;
+}
+
+h2 {
+    padding: 25px;
 }
 
 .container {
     background-color: white;
     color: black;
     overflow: auto;
-    padding-bottom: 150px;
     width: 100%;
+    padding: 10px;
+    display: inline-block;
+    margin: 0px 50px 0px 50px;
+    filter: drop-shadow(5px 5px 4px black);
 }
 
-h1 {
-    margin: 30px 0px 30px 0px;
+main {
+    margin: 10px 20px 10px 20px;
 }
 
 .nav-link {
@@ -42,9 +42,18 @@ h1 {
     color: black;
 }
 
+.nav-link:hover {
+    background-color: goldenrod;
+}
+
+#headshot {
+    float: left;
+}
+
 .card {
-    width: 80%;
-    margin: 50px;
+    width: auto;
+    margin: 10px 50px 10px 50px;
+    border: 1px solid grey;
     display: flex;
 }
 
@@ -56,47 +65,34 @@ h1 {
 }
 
 footer {
-    background-color: transparent;
-    text-align: center;
+    background-color: white;
     color: rgb(177,186,191);
     position: relative;
     margin-top: -65px; /* negative value of footer height */
     height: 65px;
     clear:both;
     padding-top:20px;
+    margin: 50px;
+    text-align: center;
+    filter: drop-shadow(5px 5px 4px black);
 }
 
 .hidden {
     display: none;
 }
 
-/* On screens that are 992px */
-@media all and (max-width: 992px)  {
-    .main {
-        width: auto;
-    }
-}
-  
-/* On screens that are 768px */
-@media screen and (max-width: 768px) {
-    .main {
-        width: auto;
-        margin: auto 50px auto 50px;
-    }
+footer.span {
+    text-align: right;
 }
 
-/* On screens that are 768px */
-@media screen and (max-width: 768px) {
-    .main {
-        width: 75%;
-        margin: auto 50px auto 50px;
-    }
+.contact {
+    align-items: center;
+    margin: 30px;
 }
 
-/* On screens that are 400px */
-@media screen and (max-width: 400px) {
-    .main {
-        width: 100%;
-        margin: auto;
-    }
-} 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
