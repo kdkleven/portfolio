@@ -4,7 +4,6 @@
 
 const aboutEl = $('#about');
 const portfolioEl = $('#portfolio');
-const contactEl = $('#contact');
 
 aboutEl.on('click', function() {
     $('#aboutDiv').removeClass('hidden');
@@ -18,8 +17,7 @@ portfolioEl.click(function() {
     $('#contactDiv').addClass('hidden');
 });
 
-contactEl.on('click', function() {
-    $('#aboutDiv').addClass('hidden');
-    $('#portfolioDiv').addClass('hidden');
-    $('#contactDiv').removeClass('hidden');
-});
+var link = document.createElement('a');
+link.href = url;
+link.download = 'file.pdf';
+link.dispatchEvent(new MouseEvent('click'));
