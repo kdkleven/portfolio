@@ -4,6 +4,7 @@
 
 const aboutEl = $('#about');
 const portfolioEl = $('#portfolio');
+const download = $('#download');
 
 aboutEl.on('click', function() {
     $('#aboutDiv').removeClass('hidden');
@@ -17,7 +18,21 @@ portfolioEl.click(function() {
     $('#contactDiv').addClass('hidden');
 });
 
-var link = document.createElement('a');
-link.href = url;
-link.download = 'file.pdf';
-link.dispatchEvent(new MouseEvent('click'));
+//Download PDF
+// function onStartedDownload(id) {
+//     console.log(`Started downloading: ${id}`);
+//   }
+  
+//   function onFailed(error) {
+//     console.log(`Download failed: ${error}`);
+//   }
+  
+//   var downloadUrl = window.location.url;
+  
+//   var downloading = browser.downloads.download({
+//     url : downloadUrl,
+//     filename : './resume/kk_Resume.docx',
+//     conflictAction : 'uniquify'
+//   });
+  
+//   downloading.then(onStartedDownload, onFailed);
