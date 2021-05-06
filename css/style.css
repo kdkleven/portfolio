@@ -42,8 +42,7 @@ h2 {
 .card {
     width: auto;
     margin: 10px 50px 10px 50px;
-    border: 1px solid grey;
-    display: flex;
+    display: flex-box;
 }
 
 #headshot {
