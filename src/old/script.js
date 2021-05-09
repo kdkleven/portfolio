@@ -17,22 +17,3 @@ portfolioEl.click(function() {
     $('#portfolioDiv').removeClass('hidden');
     $('#contactDiv').addClass('hidden');
 });
-
-//Download PDF
-// function onStartedDownload(id) {
-//     console.log(`Started downloading: ${id}`);
-//   }
-  
-//   function onFailed(error) {
-//     console.log(`Download failed: ${error}`);
-//   }
-  
-//   var downloadUrl = window.location.url;
-  
-//   var downloading = browser.downloads.download({
-//     url : downloadUrl,
-//     filename : './resume/kk_Resume.docx',
-//     conflictAction : 'uniquify'
-//   });
-  
-//   downloading.then(onStartedDownload, onFailed);
