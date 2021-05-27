@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -13,11 +13,11 @@
   }
 }
 
-<<<<<<< HEAD
-/* .App-header {
-=======
+.h2 {
+  margin: 50px;
+}
+
 .App-header {
->>>>>>> bbd44c8299647136c75d9041f41ca41bef98e41f
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,7 +26,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-} */
+}
 
 .App-link {
   color: #61dafb;
@@ -40,8 +40,5 @@
     transform: rotate(360deg);
   }
 }
-<<<<<<< HEAD
 
 
-=======
->>>>>>> bbd44c8299647136c75d9041f41ca41bef98e41f

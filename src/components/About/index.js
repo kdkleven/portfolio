@@ -1,12 +1,13 @@
 import React from 'react';
 import './style.css'
+import {Container} from 'react-bootstrap'
 
 //need to add headshot
 //restyle about sections
 
 function About() {
     return (
-        <main class="container clear-top" id="aboutDiv">
+        <Container className="clear-top" id="aboutDiv">
             <div class="row">
                 <div class="col-xl-12">
                     <h2>About Me</h2>
@@ -14,7 +15,7 @@ function About() {
             </div>
             <div class="row">
                 <div class="col-xl-12">
-                    <span><img id="headshot" src="./images/headshot.jpg" alt="Headshot" /></span>
+                    <span><img id="headshot" src="/assets/img/headshot.jpg" alt="Headshot" /></span>
                     <p>
                         Welcome to me. As a Quality Engineer and Web Developer, I am a highly-motivated professional
                         with over 16 years of experience testing and developing software applications. My life has
@@ -27,7 +28,7 @@ function About() {
                     </p>
                 </div>
             </div>
-        </main>
+        </Container>
     )
 }
 

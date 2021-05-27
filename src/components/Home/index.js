@@ -1,30 +1,24 @@
 import React from "react";
+import {Container} from 'react-bootstrap'
 import './style.css'
 
 function Home() {
   return (
-    <div className="home">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Home</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Container className="App">
+      <h2 className="font-weight-light">About Me</h2>
+      <span><img id="headshot" src="/assets/img/headshot.jpg" alt="Headshot" />
+      <p>
+        Welcome to me. As a Quality Engineer and Web Developer, I am a highly-motivated professional
+        with over 16 years of experience testing and developing software applications. My life has
+        revolved around testing for the past 15 years, from video games to applications for the real
+        estate industry.
+         <br></br>
+         <br></br>
+        The purpose of this site is to showcase my coding skills as I learn full stack web
+        development.
+                    </p>
+                    </span>
+    </Container>
   );
 }
 
