@@ -1,0 +1,31 @@
+footer {
+    background-color: white;
+    color: rgb(177,186,191);
+    /* position: relative; */
+    padding:20px;
+    margin: 50px 10px 10px 10px;
+    text-align: center;
+    /* max-width: 1143px; */
+    filter: drop-shadow(5px 5px 4px black);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .fa {
+    font-size: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  
+  .span {
+    display: inline-block;
+  }
+  
+  .contact-r {
+    display: inline-block;
+  }
+  
+  
+  
