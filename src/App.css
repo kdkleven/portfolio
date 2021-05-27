@@ -13,7 +13,11 @@
   }
 }
 
+<<<<<<< HEAD
 /* .App-header {
+=======
+.App-header {
+>>>>>>> bbd44c8299647136c75d9041f41ca41bef98e41f
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -36,5 +40,8 @@
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> bbd44c8299647136c75d9041f41ca41bef98e41f
