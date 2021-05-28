@@ -1,78 +1,91 @@
 import React from 'react'
-import { Container, Card, Button, CardDeck, Row, Col } from 'react-bootstrap'
+import { DropdownButton, Dropdown, Card, Button, CardDeck } from 'react-bootstrap'
 import './style.css'
 
 function Portfolio() {
     return (
-        <Container className="portfolio">
+        <div className="body">
             <h1 className="font-weight-light">Portfolio</h1>
             <CardDeck className="card-deck">
+                <Card style={{ width: '18rem' }} bg="light" text="black" className="mb-1">
+                    <Card.Img className="card-img-top" src="assets/img/snuze.png" alt="Snuze" />
+                    <Card.Body>
+                        <Card.Title>Snuze</Card.Title>
+                        <Card.Text className="card-text">
+                            A tranquil React app, and was designed to meet the needs of users who want some extra help to fall asleep comfortably.
+                        </Card.Text>
+                        <DropdownButton id="dropdown-basic-button" variant="danger" title="Check it out!">
+                            <Dropdown.Item className="dropdown-text" href="https://snueze.herokuapp.com/">Live App</Dropdown.Item>
+                            <Dropdown.Item className="dropdown-text" href="https://github.com/kdkleven/Snueze">Repository</Dropdown.Item>
+                        </DropdownButton>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem' }} bg="light" text="black" className="mb-2">
+                    <Card.Img className="card-img-top" src="assets/img/cupofsugar.png" alt="Cup of Sugar" />
+                    <Card.Body>
+                        <Card.Title>Cup of Sugar</Card.Title>
+                        <Card.Text className="card-text">
+                            A platform for good neighbors to be good neighbors.
+                        </Card.Text>
+                        <DropdownButton id="dropdown-basic-button" variant="danger" title="Check it out!">
+                            <Dropdown.Item className="dropdown-text" href="https://cup-of-sugar-application.herokuapp.com/">Live App</Dropdown.Item>
+                            <Dropdown.Item className="dropdown-text" href="https://github.com/kdkleven/Cup-of-Sugar">Repository</Dropdown.Item>
+                        </DropdownButton>
+                    </Card.Body>
+                </Card>
+
                 <Card style={{ width: '18rem' }} bg="light" text="dark" className="mb-2">
                     <Card.Img className="card-img-top" src="/assets/img/DailyRecreational.png" alt="Daily Recreational" />
                     <Card.Body>
                         <Card.Title>Daily Recreational</Card.Title>
                         <Card.Text className="card-text">
-                            is here to inspire you to get out of the house and rekindle your love for outdoor activities. Click on the image to try it out!
+                            An application designed to inspire you to get out of the house and rekindle your love for outdoor activities.
                                     </Card.Text>
-                        <Button variant="warning" href="https://kdkleven.github.io/dailyRecreational/index.html">Check it out!</Button>
+                        <DropdownButton id="dropdown-basic-button" variant="danger" title="Check it out!">
+                            <Dropdown.Item className="dropdown-text" href="https://kdkleven.github.io/dailyRecreational/">Live App</Dropdown.Item>
+                            <Dropdown.Item className="dropdown-text" href="https://github.com/kdkleven/dailyRecreational">Repository</Dropdown.Item>
+                        </DropdownButton>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }} bg="dark" text="light" className="mb-2">
-                    <Card.Img className="card-img-top" src="/assets/img/03-javascript-homework-demo.png" alt="Password Generator" />
+                <Card style={{ width: '18rem' }} bg="light" text="black" className="mb-2">
+                    <Card.Img className="card-img-top" src="/assets/img/empdirstat.JPG" alt="Employee Directory" />
                     <Card.Body>
-                        <Card.Title>Password Generator</Card.Title>
-                        <Card.Text className="card-text"> is an application that allows
-                        you to generate a random password based on criteria you select. Click on the image
-                                    to try it out!</Card.Text>
-                        <Button variant="warning" href="https://kdkleven.github.io/passwordGenerator/index.html">Check it out!</Button>
+                        <Card.Title>EmpDirStat</Card.Title>
+                        <Card.Text className="card-text">An employee directory built using React.</Card.Text>
+                        <DropdownButton id="dropdown-basic-button" variant="danger" title="Check it out!">
+                            <Dropdown.Item className="dropdown-text" href="https://kdkleven.github.io/empDirStat/">Live App</Dropdown.Item>
+                            <Dropdown.Item className="dropdown-text" href="https://github.com/kdkleven/empDirStat">Repository</Dropdown.Item>
+                        </DropdownButton>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }} bg="dark" text="light" className="mb-2">
-                    <Card.Img className="card-img-top" src="assets/img/workdayScheduler.PNG" alt="Workday Scheduler" />
+                <Card style={{ width: '18rem' }} bg="light" text="black" className="mb-2">
+                    <Card.Img className="card-img-top" src="assets/img/iworkout.jpg" alt="iWorkout" />
                     <Card.Body>
-                        <Card.Title>Workday Scheduler</Card.Title>
-                        <Card.Text className="card-text"> is a calendar application that
-                        allows a user to save events for each hour of the day.calendar application that
-                        allows you to plan your day and save events for each hour slot. Click on the image
-                                    to try it out!</Card.Text>
-                        <Button variant="warning" href="https://kdkleven.github.io/workdayScheduler/index.html">Check it out!</Button>
+                        <Card.Title>iWorkout</Card.Title>
+                        <Card.Text className="card-text">
+                            Workout tracker to help you track your daily workout routine.
+                        </Card.Text>
+                        <DropdownButton id="dropdown-basic-button" variant="danger" title="Check it out!">
+                            <Dropdown.Item className="dropdown-text" href="https://kk-workout.herokuapp.com/">Live App</Dropdown.Item>
+                            <Dropdown.Item className="dropdown-text" href="https://github.com/kdkleven/iWorkout">Repository</Dropdown.Item>
+                        </DropdownButton>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }} bg="dark" text="light" className="mb-2">
-                    <Card.Img className="card-img-top" src="" alt="" />
+                <Card style={{ width: '18rem' }} bg="light" text="black" className="mb-2">
+                    <Card.Img className="card-img-top" src="assets/img/techblog.PNG" alt="Tech Blog" />
                     <Card.Body>
-                        <Card.Title>Cup of Sugar</Card.Title>
-                        <Card.Text className="card-text"> is a calendar application that
-                        allows a user to save events for each hour of the day.calendar application that
-                        allows you to plan your day and save events for each hour slot. Click on the image
-                                    to try it out!</Card.Text>
-                        <Button variant="warning" href="#">Check it out!</Button>
-                    </Card.Body>
-                </Card>
-                <Card style={{ width: '18rem' }} bg="dark" text="light" className="mb-2">
-                    <Card.Img className="card-img-top" src="" alt="" />
-                    <Card.Body>
-                        <Card.Title>Snuze</Card.Title>
-                        <Card.Text className="card-text"> is a calendar application that
-                        allows a user to save events for each hour of the day.calendar application that
-                        allows you to plan your day and save events for each hour slot. Click on the image
-                                    to try it out!</Card.Text>
-                        <Button variant="warning" href="#">Check it out!</Button>
-                    </Card.Body>
-                </Card>
-                <Card style={{ width: '18rem' }} bg="dark" text="light" className="mb-2">
-                    <Card.Img className="card-img-top" src="" alt="" />
-                    <Card.Body>
-                        <Card.Title>Tech Blog</Card.Title>
-                        <Card.Text className="card-text"> is a calendar application that
-                        allows a user to save events for each hour of the day.calendar application that
-                        allows you to plan your day and save events for each hour slot. Click on the image
-                                    to try it out!</Card.Text>
-                        <Button variant="warning" href="#">Check it out!</Button>
+                        <Card.Title>KK Tech Blog</Card.Title>
+                        <Card.Text className="card-text">
+                        A tech blog for engineers to share knowledge and experiences.
+                        </Card.Text>
+                        <DropdownButton id="dropdown-basic-button" variant="danger" title="Check it out!">
+                            <Dropdown.Item className="dropdown-text" href="https://kk-tech-blog.herokuapp.com/">Live App</Dropdown.Item>
+                            <Dropdown.Item className="dropdown-text" href="https://github.com/kdkleven/techBlog">Repository</Dropdown.Item>
+                        </DropdownButton>
                     </Card.Body>
                 </Card>
             </CardDeck>
-        </Container>
+        </div>
     )
 }
 

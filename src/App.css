@@ -1,7 +1,9 @@
 
-.App {
-  background-color: #212529;
+body {
+  background-color: #212529 !important; 
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -10,7 +12,6 @@
 }
 
 h1 {
-  text-align: center !important;
   padding: 15px;
   color: white;
 }
@@ -18,6 +19,19 @@ h1 {
 .App-link {
   color: #852727;
 }
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: white;
+  background-color: #212529;
+  border-radius: 1px;
+}
+
+
 
 @keyframes App-logo-spin {
   from {

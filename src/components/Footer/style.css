@@ -2,12 +2,7 @@
     padding: 16px;
     text-align: center;
     width: 100%;
-    position: relative;
+    position: fixed;
     bottom: 0;
-    margin-top: 100px;
+    overflow:unset;
 }
-
-.footer a {
-    color: white;
-}
-

@@ -49,9 +49,9 @@ class Contact extends React.Component {
   render() {
     return (
       
-      <div className="contact-form">
+      <div className="body">
         <h1 className="font-weight-light">Contact</h1>
-        <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+        <form id="contact-form" className="mb-3" onSubmit={this.handleSubmit.bind(this)} method="POST">
           <div className="form-group">
             <label htmlFor="name">Name</label>
             <input type="text" className="form-control" />
@@ -64,7 +64,7 @@ class Contact extends React.Component {
             <label htmlFor="message">Message</label>
             <textarea className="form-control" rows="5"></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <button type="submit" className="btn btn-danger">Submit</button>
         </form>
         </div>
       

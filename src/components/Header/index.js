@@ -4,14 +4,15 @@ import { Navbar, Nav } from 'react-bootstrap'
 
 function Header(props) {
     return (
-        <Navbar className="bg-danger text-white">
+        <div id="header">
+        <Navbar className="navbar-expanded bg-danger text-white">
             <Navbar.Brand className="navbar-brand">
                 <Link className="nav-item" to="/">
                     Kyle Kleven
                     </Link>
             </Navbar.Brand>
             <Navbar.Toggle arai-controls="basic-navbar-nav" />
-            <Nav>
+            <Nav className="nav ml-auto">
                 <Navbar.Collapse>
                     <ul className="navbar-nav">
                         <li
@@ -19,19 +20,12 @@ function Header(props) {
                                 }`}
                         >
                             <Link className="nav-link" to="/">
-                                Home
+                                About
                                 <span className="sr-only">(current)</span>
                             </Link>
                         </li>
 
-                        <li
-                            className={`nav-item  ${props.location.pathname === "/about" ? "active" : ""
-                                }`}
-                        >
-                            <Link className="nav-link" to="/about">
-                                About
-                            </Link>
-                        </li>
+                      
                         <li
                             className={`nav-item  ${props.location.pathname === "/portfolio" ? "active" : ""
                                 }`}
@@ -52,7 +46,7 @@ function Header(props) {
                 </Navbar.Collapse>
             </Nav>
         </Navbar>
-
+        </div>
     )
 }
 

@@ -1,22 +1,21 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 import './style.css'
 //need to add icons
 
 function Footer () {
     return (
         <footer className="footer bg-danger text-light">
-            <span id="copyright">10GU &copy;2021</span>
+            10GU &copy;2021
             <span> || </span>
-            <span><Link href="mailto:kylekleven8@gmail.com">kylekleven8@gmail.com</Link></span>
+            <a href="mailto:kylekleven8@gmail.com">kylekleven8@gmail.com</a>
             <span> || </span>
-            <span><Link href="tel:612-670-7837">612-670-7837</Link></span>
+            <a href="tel:612-670-7837">612-670-7837</a>
             <span> || </span>
-            <span><Link href="https://www.linkedin.com/in/kdkleven/">GitHub</Link></span>
+            <a href="https://www.linkedin.com/in/kdkleven/">LinkedIn</a>
             <span> || </span>
-            <span><Link href="https://github.com/kdkleven">LinkedIn</Link></span>
+            <a href="https://github.com/kdkleven">GitHub</a>
             <span> || </span>
-            <Link href="" download="kk_resume">Resume</Link>
+            <a href="assets/files/kk_Resume.pdf" download>Resume</a>
         </footer>
     )
 }

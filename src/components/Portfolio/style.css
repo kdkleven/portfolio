@@ -1,5 +1,48 @@
+
 .card {
     border: 1px solid #dc3545 !important;
-    min-width: 24rem;
-    margin: 15px;
+    display: grid;
+    min-height: 230px;
+    grid-template-rows: 1fr auto;
+    grid-gap: 4px;
+}
+
+.body {
+    align-self: end;
+    text-align: center;
+}
+
+.dropdown-text {
+    color: black !important;
+}
+
+.card-deck {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 24px;
+}
+
+@media (max-width: 1396px) {
+ 
+.body {
+    margin-top: 100px;
+    align-self: end;
+    text-align: center;
+}
+
+.card-deck {
+   display: flex;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 24px;
+   padding-bottom: 100px;
+}   
+
+.card {
+    border: 1px solid #dc3545 !important;
+    width: 286px !important;
+    min-width: 286px !important;
+    max-width: 286px !important;
+    
+}
+
 }
