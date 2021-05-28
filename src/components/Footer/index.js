@@ -5,7 +5,7 @@ import './style.css'
 
 function Footer () {
     return (
-        <footer className="footer bg-dark text-light">
+        <footer className="footer bg-danger text-light">
             <span id="copyright">10GU &copy;2021</span>
             <span> || </span>
             <span><Link href="mailto:kylekleven8@gmail.com">kylekleven8@gmail.com</Link></span>

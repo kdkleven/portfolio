@@ -1,33 +1,27 @@
 import React from 'react';
 import './style.css'
-import {Container} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 //need to add headshot
 //restyle about sections
 
 function About() {
     return (
-        <Container className="clear-top" id="aboutDiv">
-            <div class="row">
-                <div class="col-xl-12">
+        <Container>
+            <Row>
+                <Col sm={12}>
                     <h2>About Me</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <span><img id="headshot" src="/assets/img/headshot.jpg" alt="Headshot" /></span>
+                </Col>
+            </Row>
+            <Row>
+                <Col sm={12}>
                     <p>
-                        Welcome to me. As a Quality Engineer and Web Developer, I am a highly-motivated professional
-                        with over 16 years of experience testing and developing software applications. My life has
-                        revolved around testing for the past 15 years, from video games to applications for the real
-                        estate industry.
-                    </p>
-                    <p>
-                        The purpose of this site is to showcase my coding skills as I learn full stack web
-                        development.
-                    </p>
-                </div>
-            </div>
+                        Highly motivated QA professional with over 15 years of experience designing and executing functional and automated testing of complex software applications across multiple industries. My project work ranges from highly configurable web-based platforms to the massively popular video game: Call of Duty.
+
+                        Freelance Full Stack Developer with experience in HTML, CSS, Javascript, NodeJS, Express, React, MongoDB, Bootstrap, Axios, Ajax, jMeter, Chartjs, first and third-party APIs, indexedDB, MySQL, Handlebars, Mongoose, Sequelize.
+                        </p>
+                </Col>
+            </Row>
         </Container>
     )
 }

@@ -1,4 +1,5 @@
 .contact-form {
-    width: 400px;
-    margin: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }

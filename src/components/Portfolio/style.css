@@ -1,0 +1,5 @@
+.card {
+    border: 1px solid #dc3545 !important;
+    min-width: 24rem;
+    margin: 15px;
+}
