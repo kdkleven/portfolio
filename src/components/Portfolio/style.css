@@ -19,13 +19,12 @@
 .card-deck {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   grid-gap: 24px;
 }
 
 @media (max-width: 1396px) {
  
 .body {
-    margin-top: 100px;
+    margin-top: 50px;
     align-self: end;
     text-align: center;
 }

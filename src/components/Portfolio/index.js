@@ -4,10 +4,10 @@ import './style.css'
 
 function Portfolio() {
     return (
-        <div className="body">
+        <div className="container body">
             <h1 className="font-weight-light">Portfolio</h1>
             <CardDeck className="card-deck">
-                <Card style={{ width: '18rem' }} bg="light" text="black" className="mb-1">
+                <Card style={{ width: '18rem' }} bg="light" text="black" className="col mb-1">
                     <Card.Img className="card-img-top" src="assets/img/snuze.png" alt="Snuze" />
                     <Card.Body>
                         <Card.Title>Snuze</Card.Title>
@@ -20,7 +20,7 @@ function Portfolio() {
                         </DropdownButton>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }} bg="light" text="black" className="mb-2">
+                <Card style={{ width: '18rem' }} bg="light" text="black" className="col mb-1">
                     <Card.Img className="card-img-top" src="assets/img/cupofsugar.png" alt="Cup of Sugar" />
                     <Card.Body>
                         <Card.Title>Cup of Sugar</Card.Title>
@@ -34,7 +34,7 @@ function Portfolio() {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }} bg="light" text="dark" className="mb-2">
+                <Card style={{ width: '18rem' }} bg="light" text="dark" className="col mb-1">
                     <Card.Img className="card-img-top" src="/assets/img/DailyRecreational.png" alt="Daily Recreational" />
                     <Card.Body>
                         <Card.Title>Daily Recreational</Card.Title>
@@ -47,7 +47,7 @@ function Portfolio() {
                         </DropdownButton>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }} bg="light" text="black" className="mb-2">
+                <Card style={{ width: '18rem' }} bg="light" text="black" className="col mb-1">
                     <Card.Img className="card-img-top" src="/assets/img/empdirstat.JPG" alt="Employee Directory" />
                     <Card.Body>
                         <Card.Title>EmpDirStat</Card.Title>
@@ -58,7 +58,7 @@ function Portfolio() {
                         </DropdownButton>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }} bg="light" text="black" className="mb-2">
+                <Card style={{ width: '18rem' }} bg="light" text="black" className="col mb-1">
                     <Card.Img className="card-img-top" src="assets/img/iworkout.jpg" alt="iWorkout" />
                     <Card.Body>
                         <Card.Title>iWorkout</Card.Title>
@@ -71,7 +71,7 @@ function Portfolio() {
                         </DropdownButton>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }} bg="light" text="black" className="mb-2">
+                <Card style={{ width: '18rem' }} bg="light" text="black" className="col mb-1">
                     <Card.Img className="card-img-top" src="assets/img/techblog.PNG" alt="Tech Blog" />
                     <Card.Body>
                         <Card.Title>KK Tech Blog</Card.Title>
