@@ -1,8 +1,8 @@
-var projects = [
+[
     {
         "id": 1,
         "name": "Daily Recreational",
-        "description": "An applicaiton to inspire you to get out of the house and rekindle your love for outdoor activities. Click on the img to try it out!",
+        "desc": "An applicaiton to inspire you to get out of the house and rekindle your love for outdoor activities.",
         "img": "/assets/img/DailyRecreational.png",
         "app": "https://kdkleven.github.io/dailyRecreational/",
         "repo": "https://github.com/kdkleven/dailyRecreational"
@@ -10,7 +10,7 @@ var projects = [
     {
         "id": 2,
         "name": "Cup of Sugar",
-        "description": "A platform for good neighbors to be good neighbors. Cup of Sugar users can easily find local and national resources, browse posts about what resources or services are available or needed in their community, and connect with one another to help fulfill those needs. Users can create posts of their own as well where they can offer up free food or clothing, or to ask for help with something in their home.",
+        "desc": "A platform for good neighbors to be good neighbors.",
         "img": "/assets/img/cupofsugar.png",
         "app": "https://cup-of-sugar-app.herokuapp.com/",
         "repo": "https://github.com/kdkleven/Cup-of-Sugar"
@@ -18,7 +18,7 @@ var projects = [
     {
         "id": 3,
         "name": "Tech Blog",
-        "description": "An applicaiton to inspire you to get out of the house and rekindle your love for outdoor activities. Click on the img to try it out!",
+        "desc": "A blog for technically-minded individuals to share experience.",
         "img": "/assets/img/techblog.PNG",
         "app": "https://kk-tech-blog.herokuapp.com/",
         "repo": "https://github.com/kdkleven/techBlog"
@@ -26,7 +26,7 @@ var projects = [
     {
         "id": 4,
         "name": "iWorkout",
-        "description": "Workout tracker to help you track your daily workout routine.",
+        "desc": "Workout tracker to help you track your daily workout routine.",
         "img": "/assets/img/iworkout.jpg",
         "app": "https://kk-workout.herokuapp.com/",
         "repo": "https://github.com/kdkleven/iWorkout"
@@ -34,7 +34,7 @@ var projects = [
     {
         "id": 5,
         "name": "Snuze",
-        "description": "A tranquil React app, and was designed to meet the needs of users who want some extra help to fall asleep comfortably.",
+        "desc": "A tranquil React app, and was designed to meet the needs of users who want some extra help to fall asleep comfortably.",
         "img": "assets/img/snuze.png",
         "app": "https://snueze.herokuapp.com/",
         "repo": "https://github.com/kdkleven/Snueze"
@@ -42,11 +42,9 @@ var projects = [
     {
         "id": 6,
         "name": "empDirStat",
-        "description": "An employee directory, with filter and sort functionality, built using React.",
+        "desc": "An employee directory, with filter and sort functionality, built using React.",
         "img": "/assets/img/empdirstat.JPG",
         "app": "https://kdkleven.github.io/empDirStat/",
         "repo": "https://github.com/kdkleven/empDirStat"
     }
 ]
-
-export default projects;
